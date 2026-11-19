@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "flutter_amap_map",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

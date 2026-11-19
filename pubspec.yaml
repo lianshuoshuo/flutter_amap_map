@@ -1,0 +1,35 @@
+name: flutter_amap_map
+description: Native AMap (Gaode) maps for Flutter on Android, iOS and HarmonyOS NEXT, with camera controls, overlays, POI search and GCJ-02 geocoding.
+version: 0.0.1
+repository: https://github.com/lianshuoshuo/flutter_amap_map
+publish_to: none
+topics:
+  - maps
+  - amap
+  - gaode
+  - geocoding
+  - poi
+
+environment:
+  sdk: ^3.10.3
+  flutter: '>=3.38.4'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.hscw.amap_flutter_bridge
+        pluginClass: AmapFlutterBridgePlugin
+      ios:
+        pluginClass: AmapFlutterBridgePlugin
+      ohos:
+        pluginClass: AmapFlutterBridgePlugin

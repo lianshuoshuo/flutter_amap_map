@@ -1,0 +1,41 @@
+PODS:
+  - AMap3DMap (11.3.100):
+    - AMapFoundation (= 1.9.1)
+  - AMapFoundation (1.9.1)
+  - AMapSearch (9.8.1):
+    - AMapFoundation (>= 1.9.0)
+  - Flutter (1.0.0)
+  - flutter_amap_map (0.0.1):
+    - AMap3DMap (= 11.3.100)
+    - AMapFoundation (= 1.9.1)
+    - AMapSearch (= 9.8.1)
+    - Flutter
+
+DEPENDENCIES:
+  - AMap3DMap (from `.symlinks/plugins/flutter_amap_map/ios/sdk/AMap3DMap.podspec.json`)
+  - Flutter (from `Flutter`)
+  - flutter_amap_map (from `.symlinks/plugins/flutter_amap_map/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation
+    - AMapSearch
+
+EXTERNAL SOURCES:
+  AMap3DMap:
+    :podspec: ".symlinks/plugins/flutter_amap_map/ios/sdk/AMap3DMap.podspec.json"
+  Flutter:
+    :path: Flutter
+  flutter_amap_map:
+    :path: ".symlinks/plugins/flutter_amap_map/ios"
+
+SPEC CHECKSUMS:
+  AMap3DMap: 00017ea83931e8e5bb8971975238300c97a17497
+  AMapFoundation: 8c511ce0584873bc6febb071365b2bfd62ce4a11
+  AMapSearch: bbbaa101ed94f3b51ab3a867d030a5336555138e
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_amap_map: 1c8a69a8086c9c2b7fe8523925f7c3d4a9ae99e3
+
+PODFILE CHECKSUM: f903050fa61288cd9d4563fa514e3bcace0a18fb
+
+COCOAPODS: 1.16.2

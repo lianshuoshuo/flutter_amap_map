@@ -1,0 +1,9 @@
+{
+  "name": "flutter_amap_map",
+  "version": "0.0.1",
+  "description": "HarmonyOS NEXT implementation of the flutter_amap_map Flutter plugin.",
+  "main": "index.ets",
+  "author": "flutter_amap_map contributors",
+  "license": "MIT",
+  "dependencies": {"@amap/amap_lbs_map3d": "11.1.104", "@amap/amap_lbs_common": "11.2.1", "@amap/amap_lbs_location": "11.2.1", "@amap/amap_lbs_search": "11.2.1"}
+}

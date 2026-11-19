@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  exclude:
+    - lib/flutter_amap_map_harmony.dart
+    - example/lib/main_harmony.dart
+    - example/lib/stability_harmony.dart
+    - output/**
